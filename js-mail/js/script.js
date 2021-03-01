@@ -6,8 +6,10 @@ var email = ['gianluca.forgia@gmail.com', 'mario.rossi@gmail.com', 'laura.mancin
 for (var i = 0; i < email.length; i++) {
   console.log( email[i]);
   if ( mail == email[i] ) {
-    alert('e-mail inserita correttamente');
+    alert('e-mail inserita correttamente!');
+    break;
   } else {
-    alert('la tua email non risulta nella lista');
+    alert('la tua email non risulta nella lista... ci dispiace.');
+    break;
   }
 }

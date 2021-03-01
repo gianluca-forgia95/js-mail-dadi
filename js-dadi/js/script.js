@@ -9,6 +9,6 @@ if ( mynumber > myenemy ) {
   alert('You win!!!GG');
 } else if ( mynumber < myenemy ) {
   alert('You looose!');
-} else if ( mynumber == myenemy ) {
+} else  {
   alert('Draw! Try again');
 }

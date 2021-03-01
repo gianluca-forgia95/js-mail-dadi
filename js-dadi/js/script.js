@@ -1,8 +1,8 @@
 //genero numero random per me
-var mynumber = Math.floor( Math.random()*6 );
+var mynumber = Math.floor( Math.random()*6 + 1 );
 console.log(mynumber);
 //genero numero random per l'avversario
-var myenemy = Math.floor( Math.random()*6 );
+var myenemy = Math.floor( Math.random()*6 + 1 );
 console.log(myenemy);
 //determino le condizioni per vittoria/sconfitta/pareggio
 if ( mynumber > myenemy ) {
